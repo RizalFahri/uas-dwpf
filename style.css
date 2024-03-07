@@ -1,0 +1,319 @@
+body {
+    background-color: var(---color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    flex: 1;
+}
+.txt-judul {
+    font-family: 'Geologica', sans-serif;
+    font-style: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-left: 10%;
+}
+.txt-judul-2 {
+    font-family: 'Geologica', sans-serif;
+    font-style: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 10%;
+    margin-bottom: 0;
+    background-color: var(--dark-color);
+}
+.txt-judul-2-1 {
+    font-family: 'Geologica', sans-serif;
+    font-style: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 10%;
+    margin-bottom: 0;
+}
+.txt-judul2 {
+    font-family: 'Geologica', sans-serif;
+    font-style: bold;
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: center;
+}
+.txt-subjudul {
+    font-family: 'Geologica', sans-serif;
+    font-style: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.txt-subjudul2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: light;
+    font-size: 12px;
+}
+.txt-subjudul2 li{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+}
+.custom-navbar{
+    margin-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: var(--primary-color);
+}
+.custom-search-btn {
+    margin-right: 50px;
+    width: 80px;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    border-color: var(--primary-color);
+}
+.custom-logo {
+    width:190px; 
+    height:44px;
+}
+.custom-search-btn:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--dark-color); 
+}
+.custom-search-input {
+    width: 720px;
+}
+.custom-carousel {
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.custom-carousel-2 {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.custom-carousel-image {
+    border-radius: 16px;
+    margin-top: 10px;
+}
+.custom-container-b {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 60px;
+    border-radius: 10px;
+    width: 80%;
+}
+.col {
+    text-align: center;
+}
+
+.col img {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+}
+
+.custom-container-box {
+    width: 200px;
+    height: 320px;
+    border: none;
+    background-color: var(--primary-color);
+    margin-top: 20px;
+}
+.custom-button-daftar-masuk{
+    padding: 8px 30px;
+}
+.custom-container-box-img img{
+    width: 90%;
+    margin: 5%;
+    border-radius: 10px;
+}
+.custom-footer {
+    margin-top: 20px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+.custom-footer-index {
+    margin-top: 20px;
+}
+.custom-container-c {
+    background-color: var(--dark-color);
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.custom-container-masuk-daftar {
+    width: 30%;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+}
+.custom-container-box-btn{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.custom-container-box-btn2{
+    margin: 20px;
+    padding: 10px 10px;
+    width: 96%;
+}
+.custom-a-produk{
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+.custom-p-txt {
+    color: var(--bk-color);
+    font-size: 12px;
+    margin-bottom: 5px;
+    
+}
+.custom-container-box2 {
+    background-color: var(--primary-color);
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.custom-container-box-img2 {
+    width: 500px;
+}
+.custom-img-prduct {
+    width: 900%;
+}
+.container a:hover {
+    text-decoration: none;
+}
+
+.container a:hover .col {
+    border-bottom: 6px solid var(--dark-color); 
+    width: 90%;
+    border-radius: 0 0 10px 10px;
+}
+
+.container .col {
+    transition: border-bottom 0.3s ease;
+    overflow: hidden;
+}
+
+.container .col img {
+    max-width: 100%;
+    height: auto;
+}
+.custom-alert{
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .custom-navbar{
+        margin-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: var(--primary-color);
+    }
+    .custom-logo {
+        width: 110px;
+        height: 30px;
+    }
+    .custom-button-daftar-masuk{
+        padding: 4px 15px;
+        font-size: 12px;
+    }
+    .custom-carousel {
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .txt-judul {
+        font-family: 'Geologica', sans-serif;
+        font-style: bold;
+        font-size: 12px;
+        margin-top: 10px;
+        padding-left: 5%;
+    }
+    .custom-container-b {
+        background-color: var(--primary-color);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 10px;
+        border-radius: 5px;
+        width: 90%;
+    }
+    .col {
+        text-align: center;
+    }
+    .col img {
+        display: block;
+        margin: 0 auto;
+        width: 50px;
+    }
+    .custom-container-c {
+        flex-wrap: nowrap; 
+        overflow-x: auto; 
+        padding-left: 20px;
+        justify-content: flex-start;
+        padding-bottom: 10px;
+    }
+    .custom-container-box{
+        margin: 0;
+    }
+    .txt-judul-2 {
+        font-family: 'Geologica', sans-serif;
+        font-style: bold;
+        font-size: 16px;
+        margin-top: 16px;
+        padding-top: 16px;
+        padding-left: 10%;
+        margin-bottom: 0;
+        background-color: var(--dark-color);
+    }
+    .txt-judul-2-1 {
+        font-family: 'Geologica', sans-serif;
+        font-style: bold;
+        font-size: 16px;
+        margin-top: 16px;
+        padding-top: 16px;
+        text-align: center;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    .custom-container-c .col-md-2 {
+        flex: 0 0 calc(50% - 20px);
+        margin: 10px;
+    }
+    .custom-container-box-2 {
+        width: 400px;
+        height: 520px;
+        margin: 20px auto;
+    }
+    .custom-container-masuk-daftar {
+    width: 100%;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    }
+    .custom-search-input {
+    width: 100%;
+    }
+    .custom-search-btn {
+    margin-right: 6px;
+    width: 80px;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    border-color: var(--primary-color);
+    }
+    .custom-carousel-2 {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .custom-container-box-btn2{
+        margin: 20px;
+        padding: 10px 10px;
+        width: 90%;
+    }
+}
